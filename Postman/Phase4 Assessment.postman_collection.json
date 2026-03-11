@@ -1,0 +1,39 @@
+{
+  "info": {
+    "_postman_id": "d45c54e2-f0e4-433f-8cce-86a55f1812af",
+    "name": "Phase4 Assessment",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "52329328",
+    "_collection_link": "https://go.postman.co/collection/52329328-d45c54e2-f0e4-433f-8cce-86a55f1812af?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "get all coffee",
+      "request": {
+        "method": "GET",
+        "header": [
+          {
+            "key": "accept",
+            "value": "text/plain"
+          }
+        ],
+        "url": {
+          "raw": "https://webservice.toscacloud.com/api/v1/Coffees",
+          "protocol": "https",
+          "host": [
+            "webservice",
+            "toscacloud",
+            "com"
+          ],
+          "path": [
+            "api",
+            "v1",
+            "Coffees"
+          ]
+        },
+        "description": "Generated from cURL: curl -X 'GET' \\\r\n  'https://webservice.toscacloud.com/api/v1/Coffees' \\\r\n  -H 'accept: text/plain'"
+      },
+      "response": []
+    }
+  ]
+}
